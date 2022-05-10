@@ -1,0 +1,289 @@
+    /*pag general*/
+    body{
+        background-color: rgb(223, 174, 174) ;
+        margin: 0px;
+    }
+    header{
+        background-color: white;
+        position: sticky;
+        top: 1px;
+    }
+    #banner{
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 70px;
+        position: relative;
+        left: 10px; 
+    }
+    .menu{
+        display: flex;
+        justify-content:space-between;
+    }
+    li{
+        display:inline-block;
+        position: relative;
+        top: 25px;
+        margin: 0px 0px 0px 20px;
+        right:80px;
+        font-size: medium;
+    }
+    a{
+        text-decoration: none;
+        color:  black;
+    }
+    main{
+        position:static;
+        padding-top: 10px;
+    }
+    hr{
+        color: black;
+    }
+    #instagram{
+        border-radius: 4mm;
+        width: 45px;
+        position:fixed;
+        right: 60px;
+        bottom: 10px;
+        transition: 0.5s;
+    }
+    #instagram:hover{
+        transform: rotate(20deg);
+    }
+    #whatsapp{
+        border-radius: 50%;
+        width: 45px;
+        position:fixed;
+        right: 10px;
+        bottom: 10px;
+        transition: 0.5s;
+    }
+    #whatsapp:hover{
+        transform: rotate(20deg);
+    }
+    /*pagina principal*/
+    .fondo{
+        display: flex;
+        flex-flow:row-reverse;
+    }
+    .ubi1{
+        display: flex;
+        justify-content:center;
+    }
+    #mapa{
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #manicura{
+        height: 400px;
+        margin-left: 10px;
+    }
+    /*letras*/
+    .horario{
+        font-family: 'SourceSerifPro','Open Sans','Arial','Helvetica Neue','Helvetica',sans-serif;
+        position:relative;
+        left: 30px;
+    }
+    h2{
+        font-family: 'Lobster', 'cursive';
+    }
+    p{
+        text-indent: 10px;
+        color: black;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align:start;
+    }
+    .let{
+        font-family: 'Lobster', 'cursive';
+    }
+    /*Esculpidas*/
+    .esc{
+        border: 1px solid black;
+        background-color: white;
+        padding: 20px;
+        width: 600px;
+    }
+    /*Kapping*/
+    .kapp{
+        background-color: white;
+        padding: 20px;
+        border: 1px solid black;
+        height: 400px;
+        width: 300px;
+    }
+    /*Precios*/
+    .imagenes{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .colum{
+        display: flex;
+        
+    }
+    .img1{
+        background-color: white;
+        padding: 10px;
+        width: 650px;
+    }
+    /*Soft-Gel*//*Belleza de pies*//*Nivelación*/
+    .soft{
+        background-color: white ;
+        border: 1px solid black;
+        padding:  20px;
+        width: 400px;
+    }
+    /*animation*/
+    #esculpidas:hover{
+        color: rgb(187, 163, 24);
+    }
+    #Kapping:hover{
+        color: rgb(187, 163, 24);
+    }
+    #nivelacion:hover{
+        color: rgb(187, 163, 24);
+    }
+    #belleza:hover{
+        color: rgb(187, 163, 24);
+    }
+    #soft-gel:hover{
+        color: rgb(187, 163, 24);
+    }
+    #precios:hover{
+        color: rgb(187, 163, 24);
+    }
+/* Responsive Design */
+@media(max-width: 800px){
+    /*pag general*/
+    body{ 
+        background-color: rgb(77, 77, 223) ;
+    }
+    li{
+        margin: 0px 0px 0px 15px;
+        font-size: 12px;
+    }
+    .fondo{
+        display: flex;
+        flex-flow:column-reverse;
+    }
+    #manicura{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mapa{
+        height: 400px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+        #whatsapp{
+        border-radius: 50%;
+        width: 35px;
+        position:fixed;
+        right: 30px;
+        bottom: 10px;
+    }
+    #instagram{
+        border-radius: 4mm;
+        width: 35px;
+        position:fixed;
+        right:70px;
+        bottom:10px;
+    }
+    .horario{
+        font-size: 12px;
+        color: rgb(190, 181, 181);
+    }
+    h2{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        color: rgb(190, 181, 181);
+    }
+    
+    .let{
+        font-size: 12px;
+        color: rgb(190, 181, 181);
+    }
+    .ubi1{
+        display:flex;
+        justify-content: center;
+    }
+    /*Esculpidas*/
+    .esc{
+        width: 300px;
+    }
+    /*Kapping*/
+    .kapp{
+        height: 200px;
+        width: 150px;
+    }
+    /*Soft-Gel*//*Belleza de pies*//*Nivelación*/
+    .soft{
+        width: 200px;
+    }
+    /*Precios*/
+    .img1{
+        width: 325px;
+    }
+}
+/*Reposive design*/
+@media (max-width:425px){
+    /*pag general*/
+    body{
+        background-color: grey;
+    }
+    header{
+        background-color: white;
+        position:static;
+        top: 1px;
+    }
+    li{
+        display:none
+    }
+    #banner{
+        height: 60px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #manicura{
+        display:none;
+    }
+    #mapa{
+        height: 200px;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .horario{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .ubi1{
+        display:flex;
+        justify-content: center;
+    }
+    .let{
+        font-size: 12px;
+    }
+    #whatsapp{
+        border-radius: 50%;
+        width: 35px;
+        position:relative;
+        left: 20px;
+    }
+    #instagram{
+        border-radius: 4mm;
+        width: 35px;
+        position:relative;
+        left:20px
+    }
+}
